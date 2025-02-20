@@ -49,7 +49,7 @@ if uploaded_files:
         st.write(f"*File Name:* {file.name} ")
         st.write(f"*File Size:* {file.size/1024:.2f} KB")
         
-        st.write("Preview the Head of The Data Frame")
+        st.write("Preview The Head of The Data Frame")
         st.dataframe(df.head())
         
         st.subheader("Data Cleaning Options")
